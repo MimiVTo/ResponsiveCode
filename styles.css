@@ -1,0 +1,119 @@
+.container1{
+    background-color: #f6ecea;
+    width:400px;
+    margin: 0 auto;
+    box-shadow: 10px 5px 50px 10px #61091e;
+    text-align: center;
+}
+
+.container2{
+    background-color: #f6ecea;
+    width:400px;
+    margin: 0 auto;
+    box-shadow: 10px 5px 50px 10px #61091e;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container3{
+    background-color: #f6ecea;
+    width:400px;
+    margin: 0 auto;
+    box-shadow: 10px 5px 50px 10px #61091e;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.section1{
+    text-align: left;
+    padding-left: 5%;
+    color: #61091e;
+}
+
+.section2{
+    text-align: left;
+    padding-left: 5%;
+    color: #61091e;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0% 20% 5%;
+    color:#61091e;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    padding:5% 0% 0%;
+    color:#61091e;
+}
+
+.deadPerson{
+    width:90%;
+}
+
+.picture{
+    width:70%;
+}
+
+.importantNote{
+    color:#61091e;
+    padding:0% 5%;
+}
+
+body{
+    background:url("background.png");
+}
+
+a{
+    color:#61091e
+}
+
+h2:hover{
+    color:#b02b2b;
+    transition: 3s;
+}
+
+a:hover{
+    color:#b02b2b;
+    transition: 3s;
+}
+
+.Others:hover{
+    color:darkblue;
+    transition: 10s;
+}
+
+.Killer:hover{
+    color:#b02b2b;
+    transition: 20s;
+}
+
+@media(min-width:600px){
+    .container1{
+        width:600px;
+    }
+
+    .container2{
+        width:700px;
+    }
+
+    .sections{
+        display: flex;
+    }
+
+    .section1{
+        width:50%;
+    }
+    .section2{
+        width:50%
+    }
+
+    .container3{
+        width:600px;
+    }
+}
